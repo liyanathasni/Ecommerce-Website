@@ -1,0 +1,12 @@
+1. HTML Currency Symbols, Currency Entities and ASCII Currency Character Code Reference
+
+https://www.toptal.com/designers/htmlarrows/symbols/
+
+2.google fonts
+https://fonts.google.com/
+
+3.font awesome(icons)
+https://bootstrapcdn-dev-pr-1284.herokuapp.com/fontawesome/
+
+4.box shadow generator
+https://www.cssmatic.com/box-shadow
