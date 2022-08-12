@@ -1,5 +1,6 @@
 // loader
 
+
 const fadeout = () => {
   const loaderwrapper = document.querySelector('.wrapper');
   loaderwrapper.classList.add('fade');
@@ -27,4 +28,12 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+// mobile menu
+
+const menutoggle = () => {
+  const menuicon = document.querySelector('.menuitems');
+  menuicon.classList.toggle('show-menu');
 }
