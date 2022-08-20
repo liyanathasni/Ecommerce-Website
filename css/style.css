@@ -61,6 +61,12 @@ a {
   margin-left: 20px;
   display: none;
 }
+.menuitems a:hover {
+color: #ff523b;
+}
+.menuitems li a.active {
+color: #ff523b;
+}
 
 /* navbar end */
 /* banner starts */
