@@ -14,7 +14,7 @@ window.addEventListener('load', fadeout);
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {

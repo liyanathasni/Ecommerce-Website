@@ -403,6 +403,7 @@ small {
   nav ul li a {
     display: block;
     cursor: pointer;
+    color: #fff;
   }
   .menu-icon {
     display: block;
@@ -422,6 +423,10 @@ small {
   .logos {
     margin-bottom: 20px;
   }
+  .col-3 {
+    flex-basis: 100%;
+    text-align: center;
+}
 }
 
 /* media query for less than 600 screen size*/
@@ -438,4 +443,41 @@ small {
   .footer3 {
     flex-basis: 100%;
   }
+  .header .row {
+    margin-top: 5px;
+  }
+  .banner-text h1,
+  .offer h1 {
+    font-size: 30px;
+  }
+  .col-2 h1 {
+    line-height: 40px;
+    margin: 25px 0;
+  }
+  .col-2 img {
+    padding: 10px 0px;
+  }
+  .col-4 {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .offer {
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+  .testimonial {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footermobile {
+  border-bottom: 1px solid rgb(113, 114, 111);
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.footer {
+  padding: 15px 0px 15px;
+}
+.followus-mob{
+  padding-top: 15px;
+}
 }
