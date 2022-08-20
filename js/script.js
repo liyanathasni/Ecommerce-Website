@@ -37,3 +37,4 @@ const menutoggle = () => {
   const menuicon = document.querySelector('.menuitems');
   menuicon.classList.toggle('show-menu');
 }
+
