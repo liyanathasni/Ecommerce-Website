@@ -389,6 +389,31 @@ small {
   background-color: #555;
 }
 
+.all-products {
+  margin: 70px auto 30px;
+}
+.sort {
+  text-align: right;
+  margin: 20px 15px;
+  
+}
+.sort label{
+  margin-right: 15px;
+    font-size: 14px;
+}
+select#sorting {
+  width: 150px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 800px) {
   /* media query for menu bar start*/
   nav ul {
@@ -399,6 +424,7 @@ small {
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 10;
   }
   nav ul li {
     display: block;
